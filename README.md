@@ -1,3 +1,6 @@
 # DOE
 Banco de Sangue,Front-end + Back-end
-<img src="images/logo.png" alt="">
+<img style="width: 120px;" 
+src="images/logo.png"
+ alt="Logo DOE"
+>
