@@ -11,6 +11,8 @@
 </head>
 
 <body>
+    <!-- <div class="darkmode-toggle"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🌓</font></font>
+    </div> -->
   <header>
     <img class="logo" src="images/logo.png" alt="Imagem de DOE">
     <h2>A sua doação importa</h2>
@@ -62,7 +64,7 @@
 
   <footer> Com muito
     <span style="color: red;">
-      ❤
+      <span class="darkmode-ignore">❤</span>
     </span>
     WCF (<a href="http://webcofeefreela.epizy.com/" class="linkum" target="_blank">Web Coffe Freela</a>) - <br>
     <a href="https://rocketseat.com.br/launchbase" class="linkdois" target="_blank">Maratona Dev </a>
@@ -70,10 +72,12 @@
 
 
   <script src="Js/scripts.js"></script>
+  <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
   <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
   <script>
-    new Darkmode().showWidget();
-  </script>
+    new Darkmode({ label: '\ud83d\udca1' }).showWidget();
+</script>
+  
 </body>
 
 </html>
