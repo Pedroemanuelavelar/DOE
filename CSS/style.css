@@ -77,11 +77,13 @@ header button
   background-color: #ff4f4f;
   color: #fff;
   font-weight: bold;
+  outline: none;
 }
 
 header p 
 {
   font-size: 14px;
+
 }
 
 /* FORM */
@@ -112,11 +114,14 @@ form button
   /* Bordas */
   border-radius: 4px;
   border: 1px #ffffff88 solid;
+
+  outline: none;
 }
 
 form input 
 {
   background-color: transparent;
+  outline: none;
 }
 
 form input::placeholder 
@@ -202,8 +207,49 @@ header button:hover
   cursor: pointer;
 }
 
-form button:hover 
+ form button:hover  
 {
   background-color: #f9f9f9;
   cursor: pointer;
 }
+
+.linkum, a 
+{
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+
+.linkdois,a 
+{
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+
+
+/* Efeito ao passar o mouse */
+
+.linkum:hover
+{
+    background-color: rgb(189, 52, 252);
+    font-weight: 600;
+    color: #f9f9f9;
+    border-radius: 3px;
+    transition: all 0.5s;
+    padding: 3px 5px;
+}
+
+
+.linkdois:hover
+{
+    background-color: rgb(253, 149, 31);
+    font-weight: 600;
+    color: #f9f9f9;
+    border-radius: 3px;
+    transition: all 0.5s;
+    padding: 3px 5px;
+    
+}
+
+
