@@ -1,4 +1,4 @@
-# DOE
+# Banco de Sangue (D.O.E)
 
 <img style="width: 120px;" 
 src="images/logo.png"
